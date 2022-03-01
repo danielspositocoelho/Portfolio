@@ -6,7 +6,7 @@ body{
     color: #464646;
 }
 section{
-    margin: 1.5em auto;
+    margin: 5em auto;
 }
 footer{
     text-align: center;
@@ -113,16 +113,52 @@ abbr{
 .cards-layout{
     width:90%;
     margin: 2em auto;
-    border: solid 1px black;
     display: flex;
     flex-flow: row nowrap;
-
+    justify-content: center ;
+    align-content: center;
+    align-items: center;
 }
 
 .card{
     background: #FFFFFF;
-    height:7rem;
-    width:7.5rem;
+    height:8rem;
+    width:8.5rem;
+    position:relative;
     display:inline-block;
     padding: 1em;
+    margin: 0 1em 0 0;
+    border-radius: 16px;
+}
+
+.card-formacao{
+    background: #FFFFFF;
+    height:15rem;
+    width:15rem;
+    position:relative;
+    display:inline-block;
+    padding: 1em;
+    margin: 0 1em 0 0;
+}
+#formacao{
+    background-color: #EAF2FD;
+    padding: 1.5em 0;
+}
+.card:active,.card-formacao:active{
+    transform: scale(1.115);
+}
+.card:hover,.card-formacao:hover{
+    box-shadow: 5px 1px 4px 1px grey;
+}
+
+.card span{
+    display: block;
+    position: absolute;
+    bottom: 0.5em;
+}
+.card img{
+    display: block;
+    position: absolute;
+    left:30%;
+    top:25%;
 }
