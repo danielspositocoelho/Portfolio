@@ -5,8 +5,152 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniel Sposito Coelho - Developer Porfolio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <div id='menu'>
+            <h1>Daniel's Portfolio</h1>
+            <nav class = "nav-menu">
+                <a href="#sobre-mim">Sobre mim</a>
+                <a href="#skills">Skills</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#formacao">Formação</a>
+                <a href="#experiencia">Experiência</a>
+                <a href="#projetos">Projetos</a>
+                <a id="email" href="mailto:spositocoelho@gmail.com?subject=Contato via Portfolio&body=Olá, vi seu Portfolio" target="_blank">spositocoelho@gmail.com</a>
+            </nav>
+        </div>
+        
+        <div id="descricao-conteudo">
+            <div id="descricao-texto">
+                <p id="saudacao">Olá, meu nome é Daniel Spósito Coelho.<br> Sou desenvolvedor web e professor de filosofia.</p>
+                <p>Eu sou formado em Filosofia pela Universidade de São Paulo e atualmente estudo Desenvolvimento de Sistemas na Etec Albert Einstein, bem como participo do projeto Oracle ONE na Alura. Sou, acima de tudo, um apaixonado pelo conhecimento e o poder que ele pode nos proporcionar.
+                </p>
+                <ul class="social-links">
+                    <a href="https://github.com/danielspositocoelho" target="'_blank">Github<img src='img/link.png' alt='flecha indicando link'></a>
+                    <a href="https://www.linkedin.com/in/daniel-sp%C3%B3sito-coelho-347a75204/" target="'_blank">LinkedIn<img src='img/link.png' alt='flecha indicando link'></a>
+                    <a href="https://www.instagram.com/spo_daniel/" target="'_blank">Instagram<img src='img/link.png' alt='flecha indicando link'></a>
+                    <a href="docs/Daniel Sposito Coelho - Curriculo.pdf" download>Baixar Currículo<img src='img/link.png' alt='flecha indicando link'></a>
+                </ul>
+            </div>
+            <img src="img/foto2022.png" alt="Foto de Daniel Spósito Coelho" class="foto-perfil">
+        </div>
+
+    </header>
+    <main>
+        <section id="sobre-mim-container">
+          <div id="sobre-mim-conteudo">
+                <h2>Sobre mim</h2>
+                <p>Olá, que bom ver você por aqui! &#x1F604;</p>
+              
+                <p>Eu sou Daniel Spósito Coelho, brasileiro, 25 anos, nascido e criado na cidade de São Paulo. Aos 17 anos ingressei na graduação e licenciatura em Filosofia na USP, uma etapa muito importante na minha vida, pois foi fruto de muito esforço e dedicação e me possibilitou experiências intelectuais e sociais inestimáveis e indeléveis.</p>
+                <p>Aos 23 comecei a lecionar filosofia em escolas públicas regulares em São Paulo, tais como as que eu havia estudado a maior parte de minha vida. Os anos como professor de Filosofia (e também tecnologia, inglês, entre outras disciplinas...) me ensinaram muito sobre confiança, trabalho em grupo, comunicação, empatia e aprendizagem. No entanto, sempre nutri o sonho de ter mais de poder ter mais de uma profissão, e foi na docência que descobri uma paixão pela tecnologia. Isso ocorreu depois que comecei a ministrar aulas sobre tecnologia para Ensino Fundamental e Médio, e também quando comecei a participar do <abbr title="Projeto de Apoio à Tecnologia e Inovação">PROATEC</abbr> dentro da escola em que trabalhava (uma espécie de <span lang='en'>help-desk </span>somado a projeto de letramento digital de professores e alunos).</p>
+                <p>Foi então que comecei a estudar programação por conta própria usando a internet (especialmente por meio do curso '<abbr title="Computer Science 50: Harvard's introduction to computer science and the art of programming">CS-50</abbr>', na plataforma edX) e logo engressei no curso técnico de Desenvolvimento de Sistemas em uma <abbr title="Escola Técnica Estadual de São Paulo">ETEC</abbr>. Após o primeiro semestre, decidido a percorrer esse novo caminho, encontrei o programa <abbr title="Oracle Next Education">ONE</abbr>, o qual me motivou a mergulhar em desenvolvimento web e que, com seus desafios, me fez evoluir de forma mais rápida. Atualmente estou montando meu portfolio de desenvolvedor Front-End, mas meu objetivo é estudar e trabalhar a ponto de me tornar um dev Full-Stack. Ao terminar o curso técnico pretendo ingressar em um curso superior na área de desenvolvimento de sistemas.</p>
+          </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="cards-layout">
+                <ul>
+                    <li class="card">
+                        <img src="img/html5.png" alt="Logo do HTML5">
+                        <span class="card-txt">HTML5</span>
+                    </li>
+
+                    <li class="card">
+                        <img src="img/css.png" alt="Logo das CSS3">
+                        <span class="card-txt">CSS3</span>
+                    </li>
+
+                    <li class="card">
+                        <img src="img/js.png" alt="Logo do Javascript">
+                        <span class="card-txt">Javascript</span>
+                    </li>
+
+                    <li class="card">
+                        <img src="img/php.png" alt="Logo do PHP">
+                        <span class="card-txt">PHP</span>
+                    </li>
+
+                    <li class="card">
+                        <img src="img/Csharp.png" alt="Logo do C SHARP">
+                        <span class="card-txt">C#</span>                 
+                    </li>
+
+                    <li class="card"> 
+                        <img src="img/mysql.png" alt="">
+                        <span class="card-txt">MySQL<span>    
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <div class="cards-layout">
+                <ul>
+                    <li>Música</li>
+                    <li>Ler</li>
+                    <li>Conversas Filosóficas</li>
+                    <li>Tocar Guitarra</li>
+                    <li>Musculação</li>
+                    <li>Aprender Línguas</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="formacao">
+            <h2>Formação</h2>
+            <div class="cards-layout">
+                <ul>
+                    <li>Graduação e Licenciatura em Filosofia</li>
+                    <li>Técnico em Desenvolvimento de Sistemas</li>
+                    <li>Programa ONE</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="experiencia">
+            <h2>Experiência</h2>
+            <div class="cards-layout">
+                <ul>
+                    <li>Professor Educação Básica II</li>
+                    <li>Professor de Inglês</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <ul>
+                <li>CodeDec</li>
+                <li>Jogo da Forca</li>
+                <li>TCC - Etec</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <img src="img/contato.jpg" alt="pessoas se contactando via internet">
+            <h2>Contato</h2>
+            <p>Quer entrar em contato comigo?</p><br>
+            <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível</p>
+            
+            <form action="GET">
+                <!--nome email assunto mensagem btnEnviar-->
+                <input type="text" name="input-nome" id="input-nome" placeholder="Digite seu nome.">
+                <input type="email" placeholder="seuEmail@domínio.com">
+                <input type="text" name="input-assunto" id="input-assunto">
+                <textarea name="input-mensagem" id="input-mensagem" cols="30" rows="10"></textarea>
+                <input type="submit" value="Enviar Mensagem">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Daniel Spósito Coelho</p>
+        <p>2022</p>
+    </footer>
 </body>
 </html>

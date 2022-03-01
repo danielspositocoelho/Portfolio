@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,300&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #e5e5e5;
+    color: #464646;
+}
+section{
+    margin: 1.5em auto;
+}
+footer{
+    text-align: center;
+    line-height: 2em;
+    padding:1em 0 0 0;
+    margin-top: 2em;
+    box-shadow: inset 2px 1.5px 5px #336ab8;
+}
+#saudacao{
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+#email{
+    font-weight: bold;
+}
+
+/*flex-direction: x-reverse --> inverte também a referencia para flex-start e flex-end! O start é onde estão dispostos os items do flexbox*/
+#menu{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width:auto;
+    padding: 1em;
+    margin:auto;
+    background-color: #336ab8;
+    color: white;
+}
+#menu a{
+    padding: 0 1em;
+    font-size: 1em;
+    text-shadow: 1px 3px 2.5px  rgba(97, 97, 97, 0.473);
+}
+
+#descricao-conteudo{
+    display:flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width:80%;
+    margin: 32px auto;
+}
+
+#descricao-conteudo p {
+    line-height: 2rem;
+    text-align: justify;
+}
+.foto-perfil{
+    margin-left:4em;
+    width:20rem;
+    height:20rem;
+    border-radius: 50%;
+}
+.social-links{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin-top: 2em;
+}
+
+.social-links a {
+    margin: 0 2em 0 0;
+}
+
+.social-links img{
+    vertical-align: text-bottom;
+}
+
+#sobre-mim-container{
+    background-color: #EAF2FD;
+    padding: 1.5em 0;
+}
+
+#sobre-mim-conteudo{
+    width:80%;
+    margin:1em auto;
+    font-size: 1em;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+section>h2{
+    text-align: center;
+}
+
+#sobre-mim-conteudo p{
+    text-align: justify;
+    line-height: 1.5em;
+    margin: 1em 0;
+}
+
+abbr{
+    text-decoration: none;
+    font-style: italic;
+    text-shadow: 1px 4px 5px #989da5;
+}
+
+.cards-layout{
+    width:90%;
+    margin: 2em auto;
+    border: solid 1px black;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.card{
+    background: #FFFFFF;
+    height:6.5rem;
+    width:7rem;
+    display:inline-block;
+    padding: 2em;
+}
