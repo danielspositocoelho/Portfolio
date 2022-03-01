@@ -121,8 +121,8 @@ abbr{
 
 .card{
     background: #FFFFFF;
-    height:6.5rem;
-    width:7rem;
+    height:7rem;
+    width:7.5rem;
     display:inline-block;
-    padding: 2em;
+    padding: 1em;
 }
