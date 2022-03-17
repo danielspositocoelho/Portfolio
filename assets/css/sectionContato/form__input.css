@@ -1,0 +1,17 @@
+.form__input{
+    border: none;
+    display: inline-block;
+    height:2em;
+    margin: 1rem 0;
+    padding: 0.5em;
+    width:95%;
+}
+.form__inputEnviar{
+    background-color: #2A7AE4;
+    border-radius: 2px;
+    color: white;
+    font-family: Raleway;
+    font-size: 1rem;
+    height: 3rem;
+    width: 156px;
+}

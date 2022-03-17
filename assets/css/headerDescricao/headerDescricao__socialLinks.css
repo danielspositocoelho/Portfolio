@@ -13,3 +13,16 @@
 .headerDescricao__socialLinks img{
     vertical-align: text-bottom;
 }
+
+@media screen and (max-width: 600px){
+    .headerDescricao__socialLinks{
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-top: 1.5rem;
+    }
+    
+    .headerDescricao__socialLinks a {
+        margin: 1rem 3rem 0 0;
+        width:10%;
+    }
+}

@@ -1,0 +1,6 @@
+.contato{
+    display:flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    justify-content: center;
+}

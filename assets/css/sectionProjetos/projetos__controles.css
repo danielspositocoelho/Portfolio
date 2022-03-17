@@ -1,0 +1,7 @@
+.projetos__controles{
+    margin: 1rem 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+}

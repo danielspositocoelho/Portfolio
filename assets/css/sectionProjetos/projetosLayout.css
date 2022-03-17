@@ -1,0 +1,14 @@
+.projetosLayout{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: stretch;
+    margin: 2.5rem auto;
+    padding: 3.5em;
+}
+.projetosLayout h3{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 1rem 0;
+}

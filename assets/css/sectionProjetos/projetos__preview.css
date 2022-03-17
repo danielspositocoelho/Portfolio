@@ -1,0 +1,7 @@
+.projetos__preview{
+    width:65%;
+    height: 30rem;
+    border-radius: 2%;
+    box-shadow: 3px 5px 4px 1px #0c192b98;
+    margin: 0 1.5rem;
+}

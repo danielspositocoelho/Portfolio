@@ -4,3 +4,12 @@
     height:20rem;
     border-radius: 50%;
 }
+
+@media screen and (max-width:600px) {
+    .headerDescricao__foto{
+        order: -1;
+        margin: 1.5rem 0;
+        width: 10rem;
+        height: 10rem;
+    }
+}

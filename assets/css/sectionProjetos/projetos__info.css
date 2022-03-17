@@ -1,0 +1,6 @@
+.projetos__info{
+    width:40%;
+    display:flex;
+    flex-flow: column wrap;
+    margin: 2rem 1.5rem;
+}
