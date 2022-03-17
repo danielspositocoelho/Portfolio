@@ -5,43 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniel Sposito Coelho - Developer Porfolio</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mainHeader/mainHeader.css">
+    <link rel="stylesheet" href="assets/css/mainHeader/mobileHeader.css">
+    <link rel="stylesheet" href="assets/css/mainHeader/mainNavbar.css">
+    <link rel="stylesheet" href="assets/css/mainHeader/mainNavbar__links.css">
+    <link rel="stylesheet" href="assets/css/headerDescricao/headerDescricao.css">
+    <link rel="stylesheet" href="assets/css/headerDescricao/headerDescricao__foto.css">
+    <link rel="stylesheet" href="assets/css/headerDescricao/headerDescricao__socialLinks.css">
+    <link rel="stylesheet" href="assets/css/sectionSobreMim/sobreMim.css">
+    <link rel="stylesheet" href="assets/css/sectionSobreMim/sobreMim__conteudo.css">
+    <link rel="stylesheet" href="assets/css/cardsLayout/cardsLayout.css">
+    <link rel="stylesheet" href="assets/css/cardsLayout/cardsLayout__card.css">
+    <link rel="stylesheet" href="assets/css/sectionFormacao/formacao.css">
+    <link rel="stylesheet" href="assets/css/sectionFormacao/formacao__img.css">
+    <link rel="stylesheet" href="assets/css/sectionFormacao/formacao__item.css">
 </head>
 <body>
     <header>
-        <div id='menu'>
-            <h1>Daniel's Portfolio</h1>
-            <nav class = "nav-menu">
-                <a href="#sobre-mim">Sobre mim</a>
-                <a href="#skills">Skills</a>
-                <a href="#hobbies">Hobbies</a>
-                <a href="#formacao">Formação</a>
-                <a href="#experiencia">Experiência</a>
-                <a href="#projetos">Projetos</a>
-                <a id="email" href="mailto:spositocoelho@gmail.com?subject=Contato via Portfolio&body=Olá, vi seu Portfolio" target="_blank">spositocoelho@gmail.com</a>
+        <div class='mainHeader'>
+            <div class="mobileHeader">
+                <h1>Daniel's Portfolio</h1><img src="assets/img/menu.png" alt="link do menu de navegação" id="toogleNav">
+            </div>
+            <nav>
+                <ul class = "mainNavbar">
+                    <a href="#sobre-mim" class="mainNavbar__links">Sobre mim</a>
+                    <a href="#skills" class="mainNavbar__links">Skills</a>
+                    <a href="#hobbies" class="mainNavbar__links">Hobbies</a>
+                    <a href="#formacao" class="mainNavbar__links">Formação</a>
+                    <a href="#projetos" class="mainNavbar__links">Projetos</a>
+                    <a id="mainNavbar__email" href="mailto:spositocoelho@gmail.com?subject=Contato via Portfolio&body=Olá, vi seu Portfolio" target="_blank" class="navbar__links">spositocoelho@gmail.com</a>
+                </ul>
             </nav>
         </div>
         
-        <div id="descricao-conteudo">
-            <div id="descricao-texto">
-                <p id="saudacao">Olá, meu nome é Daniel Spósito Coelho.<br> Sou desenvolvedor web e professor de filosofia.</p>
+        <div class="headerDescricao">
+            <div class="headerDescricao__texto">
+                <p id="headerDescricao__saudacao">Eu sou Daniel Spósito Coelho, estudante de desenvolvimento e professor de filosofia.</p>
                 <p>Eu sou formado em Filosofia pela Universidade de São Paulo e atualmente estudo Desenvolvimento de Sistemas na Etec Albert Einstein, bem como participo do projeto Oracle ONE na Alura. Sou, acima de tudo, um apaixonado pelo conhecimento e o poder que ele pode nos proporcionar.
                 </p>
-                <ul class="social-links">
-                    <a href="https://github.com/danielspositocoelho" target="'_blank">Github<img src='img/link.png' alt='flecha indicando link'></a>
-                    <a href="https://www.linkedin.com/in/daniel-sp%C3%B3sito-coelho-347a75204/" target="'_blank">LinkedIn<img src='img/link.png' alt='flecha indicando link'></a>
-                    <a href="https://www.instagram.com/spo_daniel/" target="'_blank">Instagram<img src='img/link.png' alt='flecha indicando link'></a>
-                    <a href="docs/Daniel Sposito Coelho - Curriculo.pdf" download>Baixar Currículo<img src='img/link.png' alt='flecha indicando link'></a>
+                <ul class="headerDescricao__socialLinks">
+                    <a href="https://github.com/danielspositocoelho" target="'_blank">Github<img src='assets/img/link.png' alt='flecha indicando link'></a>
+                    <a href="https://www.linkedin.com/in/daniel-sp%C3%B3sito-coelho-347a75204/" target="'_blank">LinkedIn<img src='assets/img/link.png' alt='flecha indicando link'></a>
+                    <a href="https://www.instagram.com/spo_daniel/" target="'_blank">Instagram<img src='assets/img/link.png' alt='flecha indicando link'></a>
+                    <a href="docs/Daniel Sposito Coelho - Curriculo.pdf" download>Baixar Currículo<img src='assets/img/link.png' alt='flecha indicando link'></a>
                 </ul>
             </div>
-            <img src="img/foto2022.png" alt="Foto de Daniel Spósito Coelho" class="foto-perfil">
+            <img src="assets/img/foto2022.png" alt="Foto de Daniel Spósito Coelho" class="headerDescricao__foto">
         </div>
 
     </header>
     <main>
-        <section id="sobre-mim-container">
-          <div id="sobre-mim-conteudo">
+        <section class="sobreMim">
+          <div class="sobreMim__conteudo">
                 <h2>Sobre mim</h2>
                 <p>Olá, que bom ver você por aqui! &#x1F604;</p>
               
@@ -51,154 +68,139 @@
           </div>
         </section>
 
-        <section id="skills">
+        <section class="skills">
             <h2>Skills</h2>
-            <div class="cards-layout">
+            <div class="cardsLayout">
                 <ul>
-                    <li class="card">
-                        <img src="img/html5.png" alt="Logo do HTML5">
-                        <span class="card-txt">HTML5</span>
+                    <li class="cardsLayout__card">
+                        <img src="assets/img/html5.png" alt="Logo do HTML5">
+                        <span class="cardsLayout__card-txt">HTML5</span>
                     </li>
 
-                    <li class="card">
-                        <img src="img/css.png" alt="Logo das CSS3">
-                        <span class="card-txt">CSS3</span>
+                    <li class="cardsLayout__card">
+                        <img src="assets/img/css.png" alt="Logo das CSS3">
+                        <span class="cardsLayout__card-txt">CSS3</span>
                     </li>
 
-                    <li class="card">
-                        <img src="img/js.png" alt="Logo do Javascript">
-                        <span class="card-txt">Javascript</span>
+                    <li class="cardsLayout__card">
+                        <img src="assets/img/js.png" alt="Logo do Javascript">
+                        <span class="cardsLayout__card-txt">Javascript</span>
                     </li>
 
-                    <li class="card">
-                        <img src="img/php.png" alt="Logo do PHP">
-                        <span class="card-txt">PHP</span>
-                    </li>
-
-                    <li class="card">
-                        <img src="img/Csharp.png" alt="Logo do C SHARP">
-                        <span class="card-txt">C#</span>                 
-                    </li>
-
-                    <li class="card"> 
-                        <img src="img/mysql.png" alt="">
-                        <span class="card-txt">MySQL<span>    
-                    </li>
                 </ul>
             </div>
         </section>
 
-        <section id="hobbies">
+        <section class="hobbies">
             <h2>Hobbies</h2> 
-            <div class="cards-layout">
+            <div class="cardsLayout">
                 <ul>
-                    <li class="card">
-                        <img src="img/music.png" alt="Simbolo de Musica">
+                    <li class="cardsLayout__card">
+                        <img src="assets/img/music.png" alt="Simbolo de Musica">
                         <span>Música</span>
                     </li>
-                    <li class="card">
-                        <img src="img/book.png" alt="Livro">
+                    <li class="cardsLayout__card">
+                        <img src="assets/img/book.png" alt="Livro">
                         <span>Ler</span>
                     </li>
-                    <li class="card">
-                        <img src="img/conversa.png" alt="Pessoas trocando ideias">
+                    <li class="cardsLayout__card">
+                        <img src="assets/img/conversa.png" alt="Pessoas trocando ideias">
                         <span>Conversas Filosóficas</span>
                     </li>
-                    <li class="card">
-                        <img src="img/guitar.png" alt="Desenho de uma guitarra">
+                    <li class="cardsLayout__card">
+                        <img src="assets/img/guitar.png" alt="Desenho de uma guitarra">
                         <span>Tocar Guitarra</span>
                     </li>
-                    <li class="card">
-                        <img src="img/musculacao.png" alt="Peso para musculação">
+                    <li class="cardsLayout__card">
+                        <img src="assets/img/musculacao.png" alt="Peso para musculação">
                         <span>Musculação</span>
                     </li>
-                    <li class="card">
-                        <img src="img/languages.png" alt="Simbolo de linguagens">
+                    <li class="cardsLayout__card">
+                        <img src="assets/img/languages.png" alt="Simbolo de linguagens">
                         <span>Aprender Línguas</span>
                     </li>
                 </ul>
             </div>
         </section>
 
-        <section id="formacao">
+        <section class="formacao">
         <h2>Formação</h2>
-            <ul class="cards-layout">
-                <li class="conteudo-formacao">                    
-                    <img src="img/usp.jpg" alt="Logo da Universidade de São Paulo" class="card-formacao">
+            <ul class="cardsLayout">
+                <li class="formacao__item">                    
+                    <img src="assets/img/usp.jpg" alt="Logo da Universidade de São Paulo" class="formacao__img">
                     <h3>Graduação e Licenciatura em Filosofia</h3>
                     <span>2015 - 2020</span>
                 </li>
 
-                <li class="conteudo-formacao">
-                    <img src="img/etec.jpg" alt="Logo da Escola Técnicas de São Paulo" class="card-formacao">
+                <li class="formacao__item">
+                    <img src="assets/img/etec.jpg" alt="Logo da Escola Técnicas de São Paulo" class="formacao__img">
                     <h3>Desenvolvimento de Sistemas (Técnico)</h3>
                     <span>2021 - atualmente</span>
                 </li>
 
-                <li class="conteudo-formacao">        
-                    <img src="img/one.jpg" alt="Logo do programa Oracle Next Education" class="card-formacao">
+                <li class="formacao__item">        
+                    <img src="assets/img/one.jpg" alt="Logo do programa Oracle Next Education" class="formacao__img">
                     <h3>Programa ONE</h3>
                     <span>2022 - atualmente</span>
                 </li>
             </ul>
         </section>
 
-        <section id="projetos">
+        <section class="projetos">
             <h2>Projetos</h2>
             <ul>
-                <li class="vitrine-layout">
+                <li class="projetosLayout">
 
-                    <iframe src=" https://danielspositocoelho.github.io/codeDec/" frameborder="0" class="projeto-preview"></iframe>
+                    <iframe src="https://danielspositocoelho.github.io/codeDec/" frameborder="0" class="projetos__preview"></iframe>
                     
-                    <div class="projeto-info">
+                    <div class="projetos__info">
                         <h3>CodeDec - Codificador/Decodificador de Texto</h3>
                         <span>Challenge ONE (Oracle + Alura) Codificador</span>
-                        <button>Repositório</button>
-                        <button>Ver demo</button>
+                        <div class='projetos__controles'>
+                            <a href="https://github.com/danielspositocoelho/codeDec" class="controles__links" target='_blank'>Repositório</a>
+                            <a href="https://danielspositocoelho.github.io/codeDec/" class="controles__links" target='_blank'>Ver demo</a>
+                        </div>
                     </div>
 
                 </li>
-                <li class="vitrine-layout">
+                <li class="projetosLayout">
                 
-                    <iframe src="https://danielspositocoelho.github.io/jogoDaForca/" frameborder="0" class="projeto-preview"></iframe>
+                    <iframe src="https://danielspositocoelho.github.io/jogoDaForca/" frameborder="0" class="projetos__preview"></iframe>
                 
-                    <div class="projeto-info">
+                    <div class="projetos__info">
                         <h3>Jogo da Forca</h3>
                         <span>Challenge ONE (Oracle + Alura) Jogo Criado com HTML5, CSS3 e JS</span>
-                        <button>Repositório</button>
-                        <button>Ver demo</button>
+                        <div class='projetos__controles'>    
+                            <a href="https://github.com/danielspositocoelho/jogoDaForca" class="controles__links" target='_blank'>Repositório</a>
+                            <a href="https://danielspositocoelho.github.io/jogoDaForca/" class="controles__links" target='_blank'>Ver demo</a>
+                        </div>
                     </div>
 
-                </li>
-                <li class="vitrine-layout">
-                    
-                    <iframe src="img/work-in-progress.jpg" frameborder="0" class="projeto-preview"></iframe>
-                    
-                    <div class="projeto-info">
-                        <h3>TCC - Etec</h3>
-                        <span>EM DESENVOLVIMENTO </span>
-                        <button disabled>Repositório</button>
-                        <button disabled>Ver demo</button>
-                    </div>
-                
                 </li>
             </ul>
         </section>
 
-        <section id="contato">
-            <img src="img/contato.jpg" alt="pessoas se contactando via internet">
-            <h2>Contato</h2>
-            <p>Quer entrar em contato comigo?</p><br>
-            <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível</p>
-            
-            <form action="GET">
-                <!--nome email assunto mensagem btnEnviar-->
-                <input type="text" name="input-nome" id="input-nome" placeholder="Digite seu nome.">
-                <input type="email" placeholder="seuEmail@domínio.com">
-                <input type="text" name="input-assunto" id="input-assunto">
-                <textarea name="input-mensagem" id="input-mensagem" cols="30" rows="10"></textarea>
-                <input type="submit" value="Enviar Mensagem">
-            </form>
+        <section class="contato">
+            <img src="assets/img/contato.jpg" alt="pessoas se contactando via internet" class="contato-img">
+            <div class="contato-info">
+                <h2>Contato</h2>
+                <p>Quer entrar em contato comigo?</p><br>
+                <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível</p>
+                
+                <form action="GET" class="formulario">
+                    <!--nome email assunto mensagem btnEnviar-->
+
+                    <label for="Nome">Nome<input type="text" name="input-nome" id="input-nome" placeholder="Digite seu nome." class='form__input'></label>
+
+                    <label for="Email">E-mail<input type="email" placeholder="seuEmail@domínio.com" class='form__input'></label>
+
+                    <label for="Assunto">Assunto<input type="text" name="input-assunto" id="input-assunto" class='form__input'></label>
+
+                    <label for="Mensagem">Mensagem<textarea name="input-mensagem" id="input-mensagem" cols="30" rows="10" class='form__input'></textarea></label>
+                    
+                    <label for=""><input type="submit" value="Enviar Mensagem" class='form__input form__inputEnviar'></label>
+                </form>
+            </div>
         </section>
     </main>
     <footer>

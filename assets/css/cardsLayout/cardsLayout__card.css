@@ -1,0 +1,28 @@
+.cardsLayout__card{
+    background: #FFFFFF;
+    height:8rem;
+    width:8.5rem;
+    position:relative;
+    display:inline-block;
+    padding: 1em;
+    margin: 0 1em 0 0;
+    border-radius: 16px;
+}
+.cardsLayout__card:active,.card-formacao:active{
+    transform: scale(1.115);
+}
+.cardsLayout__card:hover,.card-formacao:hover{
+    box-shadow: 5px 1px 4px 1px grey;
+}
+
+.cardsLayout__card span{
+    display: block;
+    position: absolute;
+    bottom: 0.5em;
+}
+.cardsLayout__card img{
+    display: block;
+    position: absolute;
+    left:30%;
+    top:25%;
+}

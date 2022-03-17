@@ -1,0 +1,18 @@
+.headerDescricao{
+    display:flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width:80%;
+    margin: 32px auto;
+}
+#headerDescricao__saudacao {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+.headerDescricao__texto p{
+    line-height: 2em;
+    text-align: justify;
+}

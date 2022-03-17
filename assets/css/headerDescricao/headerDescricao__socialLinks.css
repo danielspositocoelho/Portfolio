@@ -1,0 +1,15 @@
+.headerDescricao__socialLinks{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin-top: 2em;
+}
+
+.headerDescricao__socialLinks a {
+    margin: 0 2em 0 0;
+}
+
+.headerDescricao__socialLinks img{
+    vertical-align: text-bottom;
+}

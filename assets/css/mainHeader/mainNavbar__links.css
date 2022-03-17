@@ -1,0 +1,14 @@
+.mainNavbar__links{
+    padding: 0 1em;
+    font-size: 1em;
+    text-shadow: 1px 3px 2.5px  rgba(97, 97, 97, 0.473);
+}
+
+@media screen and (max-width:600px){
+    .mainNavbar__links {
+        text-align: center;
+        font-size:0.8em;
+        width: 18%;
+        padding-bottom: 0.6em; 
+    }
+}

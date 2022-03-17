@@ -1,0 +1,9 @@
+.cardsLayout{
+    width:90%;
+    margin: 2em auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center ;
+    align-content: center;
+    align-items: center;
+}

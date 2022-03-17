@@ -1,0 +1,11 @@
+.sobreMim__conteudo{
+    width:80%;
+    margin:1em auto;
+    font-size: 1em;
+}
+
+.sobreMim__conteudo p{
+    text-align: justify;
+    line-height: 1.5em;
+    margin: 1em 0;
+}

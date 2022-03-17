@@ -1,0 +1,39 @@
+.mainHeader{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width:auto;
+    padding: 1em;
+    margin:auto;
+    background: #255fffc4;
+    color: white;
+}
+
+#toogleNav{
+    display: none;
+}
+
+@media screen and (max-width:600px){
+    .mainHeader{
+        flex-flow: column wrap;
+        align-items: stretch;
+        justify-content: space-around;
+        padding: 1.2rem 0.5rem 0.5rem 0.8rem;
+    }
+    .mobileHeader{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    #toogleNav{
+        width:20px;
+        height: 20px;
+        padding: 0 1em;
+        display: inline;
+    }
+    
+    #toggleMenu:hover{
+        width:50px;
+    }
+}
