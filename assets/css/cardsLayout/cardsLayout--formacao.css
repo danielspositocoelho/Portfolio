@@ -1,0 +1,17 @@
+.cardsLayout--formacao{
+    width:90%;
+    margin: 2em auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center ;
+    align-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px){
+    .cardsLayout--formacao{
+        flex-flow: column nowrap;
+        justify-content: space-between ;
+        align-items: center;
+    }
+}

@@ -2,3 +2,9 @@
     width:40%;
     margin: 0 1.5rem;
 }
+
+@media screen and (max-width:600px) {
+    .contato-img{
+        display: none;
+    }
+}

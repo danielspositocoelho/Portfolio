@@ -26,6 +26,9 @@
         justify-content: space-between;
         align-items: baseline;
     }
+    .mobileHeader h1{
+        margin-bottom: 1.5rem;
+    }
     #toogleNav{
         width:20px;
         height: 20px;

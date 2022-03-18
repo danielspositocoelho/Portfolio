@@ -5,3 +5,21 @@
     box-shadow: 3px 5px 4px 1px #0c192b98;
     margin: 0 1.5rem;
 }
+
+.projetos__preview--iframe{
+    width:100%;
+    height: 100%;
+}
+
+@media  screen and (max-width:600px) {
+    .projetos__preview{
+        width:100%;
+        height: 15rem;
+        margin: 0;
+    }
+    
+    .projetos__preview--iframe{
+        width:100%;
+        height: 100%;
+    }
+}

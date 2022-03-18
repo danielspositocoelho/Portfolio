@@ -1,6 +1,12 @@
 .projetos__info{
-    width:40%;
+    width:45%;
     display:flex;
     flex-flow: column wrap;
     margin: 2rem 1.5rem;
+}
+
+@media screen and (max-width:600px){
+    .projetos__info{
+        width: 90%;
+    }
 }

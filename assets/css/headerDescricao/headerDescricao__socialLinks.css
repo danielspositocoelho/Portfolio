@@ -16,13 +16,13 @@
 
 @media screen and (max-width: 600px){
     .headerDescricao__socialLinks{
-        flex-flow: row wrap;
+        flex-flow: row nowrap;
         justify-content: space-between;
         margin-top: 1.5rem;
     }
     
     .headerDescricao__socialLinks a {
-        margin: 1rem 3rem 0 0;
+        margin: 1rem 1rem 0 0;
         width:10%;
     }
 }

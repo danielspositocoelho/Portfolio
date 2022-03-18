@@ -16,7 +16,10 @@
     <link rel="stylesheet" href="assets/css/headerDescricao/headerDescricao__socialLinks.css">
     <link rel="stylesheet" href="assets/css/sectionSobreMim/sobreMim.css">
     <link rel="stylesheet" href="assets/css/sectionSobreMim/sobreMim__conteudo.css">
-    <link rel="stylesheet" href="assets/css/cardsLayout/cardsLayout.css">
+    <link rel="stylesheet" href="assets/css/cardsLayout/cardsLayout--hardSkills.css">
+    <link rel="stylesheet" href="assets/css/cardsLayout/cardsLayout--softSkills.css">
+    <link rel="stylesheet" href="assets/css/cardsLayout/cardsLayout--hobbies.css">
+    <link rel="stylesheet" href="assets/css/cardsLayout/cardsLayout--formacao.css">
     <link rel="stylesheet" href="assets/css/cardsLayout/cardsLayout__card.css">
     <link rel="stylesheet" href="assets/css/sectionFormacao/formacao.css">
     <link rel="stylesheet" href="assets/css/sectionFormacao/formacao__img.css">
@@ -59,7 +62,7 @@
                     <a href="https://github.com/danielspositocoelho" target="'_blank">Github<img src='assets/img/link.png' alt='flecha indicando link'></a>
                     <a href="https://www.linkedin.com/in/daniel-sp%C3%B3sito-coelho-347a75204/" target="'_blank">LinkedIn<img src='assets/img/link.png' alt='flecha indicando link'></a>
                     <a href="https://www.instagram.com/spo_daniel/" target="'_blank">Instagram<img src='assets/img/link.png' alt='flecha indicando link'></a>
-                    <a href="docs/Daniel Sposito Coelho - Curriculo.pdf" download>Baixar Currículo<img src='assets/img/link.png' alt='flecha indicando link'></a>
+                    <a href="docs/Daniel Sposito Coelho - Curriculo.pdf" download>Currículo<img src='assets/img/link.png' alt='flecha indicando link'></a>
                 </ul>
             </div>
             <img src="assets/img/foto2022.png" alt="Foto de Daniel Spósito Coelho" class="headerDescricao__foto">
@@ -79,9 +82,8 @@
         </section>
 
         <section class="skills">
-            <h2>Skills</h2>
-            <div class="cardsLayout">
-                <ul>
+            <h2>Hard Skills</h2>
+                <ul class="cardsLayout--hardSkills">
                     <li class="cardsLayout__card">
                         <img src="assets/img/html5.png" alt="Logo do HTML5">
                         <span class="cardsLayout__card-txt">HTML5</span>
@@ -96,15 +98,32 @@
                         <img src="assets/img/js.png" alt="Logo do Javascript">
                         <span class="cardsLayout__card-txt">Javascript</span>
                     </li>
-
                 </ul>
-            </div>
+        </section>
+
+        <section class="skills">
+            <h2>Soft Skills</h2>
+                <ul class="cardsLayout--softSkills">
+                    <li class="cardsLayout__card">
+                        <img src="assets/img/html5.png" alt="Logo do HTML5">
+                        <span class="cardsLayout__card-txt">HTML5</span>
+                    </li>
+
+                    <li class="cardsLayout__card">
+                        <img src="assets/img/css.png" alt="Logo das CSS3">
+                        <span class="cardsLayout__card-txt">CSS3</span>
+                    </li>
+
+                    <li class="cardsLayout__card">
+                        <img src="assets/img/js.png" alt="Logo do Javascript">
+                        <span class="cardsLayout__card-txt">Javascript</span>
+                    </li>
+                </ul>
         </section>
 
         <section class="hobbies">
             <h2>Hobbies</h2> 
-            <div class="cardsLayout">
-                <ul>
+                <ul class="cardsLayout--hobbies">
                     <li class="cardsLayout__card">
                         <img src="assets/img/music.png" alt="Simbolo de Musica">
                         <span>Música</span>
@@ -130,12 +149,11 @@
                         <span>Aprender Línguas</span>
                     </li>
                 </ul>
-            </div>
         </section>
 
         <section class="formacao">
         <h2>Formação</h2>
-            <ul class="cardsLayout">
+            <ul class="cardsLayout--formacao">
                 <li class="formacao__item">                    
                     <img src="assets/img/usp.jpg" alt="Logo da Universidade de São Paulo" class="formacao__img">
                     <h3>Graduação e Licenciatura em Filosofia</h3>
@@ -161,7 +179,9 @@
             <ul>
                 <li class="projetosLayout">
 
-                    <iframe src="https://danielspositocoelho.github.io/codeDec/" frameborder="0" class="projetos__preview"></iframe>
+                    <div class="projetos__preview">
+                        <iframe src="https://danielspositocoelho.github.io/codeDec/" frameborder="0" class="projetos__preview--iframe"></iframe>
+                    </div>
                     
                     <div class="projetos__info">
                         <h3>CodeDec - Codificador/Decodificador de Texto</h3>
@@ -175,7 +195,9 @@
                 </li>
                 <li class="projetosLayout">
                 
-                    <iframe src="https://danielspositocoelho.github.io/jogoDaForca/" frameborder="0" class="projetos__preview"></iframe>
+                    <div class="projetos__preview">
+                        <iframe src="https://danielspositocoelho.github.io/jogoDaForca/" frameborder="0" class="projetos__preview--iframe"></iframe>
+                    </div>
                 
                     <div class="projetos__info">
                         <h3>Jogo da Forca</h3>
@@ -189,15 +211,15 @@
                 </li>
             </ul>
         </section>
-
+<hr>
         <section class="contato">
             <img src="assets/img/contato.jpg" alt="pessoas se contactando via internet" class="contato-img">
+            <h2>Contato</h2>
             <div class="contato-info">
-                <h2>Contato</h2>
                 <p>Quer entrar em contato comigo?</p><br>
                 <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível</p>
                 
-                <form action="GET" class="formulario">
+                <form action="GET" class="formulario" name="formulario"> 
                     <!--nome email assunto mensagem btnEnviar-->
 
                     <label for="Nome">Nome<input type="text" name="input-nome" id="input-nome" placeholder="Digite seu nome." class='form__input'></label>

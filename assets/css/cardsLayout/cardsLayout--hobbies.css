@@ -1,4 +1,4 @@
-.cardsLayout{
+.cardsLayout--hobbies{
     width:90%;
     margin: 2em auto;
     display: flex;
@@ -9,9 +9,9 @@
 }
 
 @media screen and (max-width: 600px){
-    .cardsLayout{
+    .cardsLayout--hobbies{
         flex-flow: column nowrap;
-        justify-content: center ;
-        align-content: center;
+        justify-content: space-around ;
+        align-items: center;
     }
 }

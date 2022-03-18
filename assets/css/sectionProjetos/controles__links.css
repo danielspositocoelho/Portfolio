@@ -14,3 +14,11 @@
     color:#336ab8;
     box-shadow: inset 0px 0px 6px 2.5px #134994c2;
 }
+
+@media screen and (max-width:600px){
+    .controles__links{
+        width:35%;
+        margin: 1rem;
+        padding: 0.8em;
+    }
+}

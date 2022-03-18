@@ -2,3 +2,14 @@
     background-color: #EAF2FD;
     padding: 1.5em 0;
 }
+
+
+@media screen and (max-width: 600px){
+    .formacao__item{
+        margin: 0 0 3em 0;
+    }
+
+    .formacao__item:last-child{
+        margin-bottom: 0;
+    }
+}
