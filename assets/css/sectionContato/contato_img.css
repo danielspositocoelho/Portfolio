@@ -1,9 +1,10 @@
 .contato-img{
     width:40%;
-    margin: 0 1.5rem;
+    height: 25em;
+    margin: 10rem 1.5rem 0 0;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:750px) {
     .contato-img{
         display: none;
     }

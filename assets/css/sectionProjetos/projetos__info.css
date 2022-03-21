@@ -5,7 +5,7 @@
     margin: 2rem 1.5rem;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:750px){
     .projetos__info{
         width: 90%;
     }

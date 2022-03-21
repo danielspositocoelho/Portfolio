@@ -16,8 +16,12 @@
 .cardsLayout__card img{
     display: block;
     position: absolute;
-    left:15%;
-    top:25%;
+    left:33%;
+    top:30%;
+}
+
+.cardsLayout--hobbies .cardsLayout__card{
+    margin: 0 1rem 1.5rem 0;
 }
 
 .cardsLayout__card:active,.card-formacao:active{
@@ -27,14 +31,57 @@
     box-shadow: 5px 1px 4px 1px grey;
 }
 
-@media screen and (max-width:600px){
+
+@media screen and (max-width:750px){
     .cardsLayout__card{
-        height:7em;
-        width:8.5em;
+        height:8em;
+        width:8em;
         margin: 1rem 1rem;
     }
+    
     .cardsLayout__card span{
         font-weight: bold;
         font-size: 1rem;
+    }
+
+    .cardsLayout--hobbies .cardsLayout__card{
+        height:7em;
+        width:7em;
+        margin: 1rem 2rem;
+    }
+
+    .cardsLayout--hobbies .cardsLayout__card img{
+        left:28%;
+        top:25%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .cardsLayout__card{
+        height:4em;
+        width:4em;
+        margin: 0.8rem 0.8rem;
+    }
+    
+    .cardsLayout__card img{
+        transform: scale(0.7);
+        left:22%;
+        top:20%;
+    }
+
+    .cardsLayout__card span{
+        font-weight: bold;
+        font-size: 0.7rem;
+    }
+
+    .cardsLayout--hobbies .cardsLayout__card{
+        height:4em;
+        width:4em;
+        margin: 0.8rem 0.8rem;
+    }
+    .cardsLayout--hobbies .cardsLayout__card img{
+        transform: scale(0.7);
+        left:22%;
+        top:20%;
     }
 }

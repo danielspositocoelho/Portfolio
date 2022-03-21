@@ -13,7 +13,7 @@ footer{
     line-height: 2em;
     padding:1em 0 0 0;
     margin-top: 2em;
-    box-shadow: inset 2px 1.5px 5px #336ab8;
+    border-top: solid 1px rgba(4, 4, 255, 0.404);
 }
 
 button:active{
@@ -21,13 +21,11 @@ button:active{
     transition: none;
 }
 
-h2{
+.section__subtitulo{
     font-weight: bold;
     font-size: 2em;
-}
-section>h2{
     text-align: center;
-    margin: 2rem 0;
+    margin: 2rem 0 2.5rem 0;
 }
 
 abbr{
@@ -38,7 +36,7 @@ abbr{
 /*flex-direction: x-reverse --> inverte também a referencia para flex-start e flex-end! O start é onde estão dispostos os items do flexbox*/
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:750px){
     
     h2{
         font-weight: bold;

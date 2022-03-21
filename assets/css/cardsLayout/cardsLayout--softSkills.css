@@ -8,10 +8,9 @@
     align-items: center;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width:750px){
     .cardsLayout--softSkills{
-        flex-flow: column nowrap;
+        flex-flow: row wrap;
         justify-content: space-around ;
-        align-items: center;
     }
 }

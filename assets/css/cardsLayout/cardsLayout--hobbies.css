@@ -1,16 +1,16 @@
 .cardsLayout--hobbies{
-    width:90%;
+    width:95%;
     margin: 2em auto;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center ;
-    align-content: center;
     align-items: center;
+    align-content: center;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width:750px){
     .cardsLayout--hobbies{
-        flex-flow: column nowrap;
+        flex-flow: row wrap;
         justify-content: space-around ;
         align-items: center;
     }

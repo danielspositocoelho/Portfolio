@@ -3,12 +3,12 @@
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
-    width:80%;
+    width:75%;
     margin: 2rem auto;
 }
 #headerDescricao__saudacao {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.8em;
     margin-bottom: 1em;
     line-height: 1.5em;
 }
@@ -17,12 +17,13 @@
     text-align: justify;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:750px) {
     .headerDescricao{
-        flex-flow: column wrap;
+        flex-flow: column nowrap;
         align-items: flex-start;
         justify-content: space-between;
-        margin: 1rem 2em;
+        margin: 1rem 1.5rem;
+        width:90%;
     }
     #headerDescricao__saudacao{
         font-weight: bold;
@@ -35,5 +36,6 @@
         line-height: 1.5em;
         font-size: 0.9em;
         text-align: justify;
+        padding: 0.8em;
     }
 }
