@@ -33,6 +33,10 @@ abbr{
     font-style: italic;
     text-shadow: 1px 4px 5px #989da5;
 }
+
+.input-mensagem-erro{
+    display: none;
+}
 /*flex-direction: x-reverse --> inverte também a referencia para flex-start e flex-end! O start é onde estão dispostos os items do flexbox*/
 
 

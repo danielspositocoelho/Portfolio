@@ -58,15 +58,15 @@
 
 @media screen and (max-width:500px){
     .cardsLayout__card{
-        height:4em;
-        width:4em;
+        height:5em;
+        width:5em;
         margin: 0.8rem 0.8rem;
     }
     
     .cardsLayout__card img{
-        transform: scale(0.7);
-        left:22%;
-        top:20%;
+        transform: scale(0.75);
+        left:27%;
+        top:22%;
     }
 
     .cardsLayout__card span{

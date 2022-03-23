@@ -3,17 +3,18 @@
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
-    width:75%;
-    margin: 2rem auto;
+    width:90%;
+    margin: 2rem 4rem;
 }
 #headerDescricao__saudacao {
     font-weight: bold;
     font-size: 1.8em;
-    margin-bottom: 1em;
+    margin: 1.5em 0;
     line-height: 1.5em;
 }
 .headerDescricao__texto p{
     line-height: 2em;
+    margin-bottom: 1.5em;
     text-align: justify;
 }
 
@@ -36,6 +37,7 @@
         line-height: 1.5em;
         font-size: 0.9em;
         text-align: justify;
-        padding: 0.8em 0.8em 0.8em 0;
+        width: 90%;
+        padding: 1em 1em 1em 0;
     }
 }

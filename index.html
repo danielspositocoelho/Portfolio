@@ -97,6 +97,18 @@
                         <img src="assets/img/js.png" alt="Logo do Javascript">
                         <span class="cardsLayout__card-txt">Javascript</span>
                     </li>
+                    <li class="cardsLayout__card">
+                        <img src="assets/img/git.png" alt="Logo do Git">
+                        <span class="cardsLayout__card-txt">Git</span>
+                    </li>
+                    <li class="cardsLayout__card">
+                        <img src="assets/img/github.png" alt="Logo do Github">
+                        <span class="cardsLayout__card-txt">Github</span>
+                    </li>
+                    <li class="cardsLayout__card">
+                        <img src="assets/img/english.png" alt="Logo do Javascript">
+                        <span class="cardsLayout__card-txt">Inglês Avançado</span>
+                    </li>
                 </ul>
         </section>
 
@@ -104,22 +116,25 @@
             <h2 class="section__subtitulo">Soft Skills</h2>
                 <ul class="cardsLayout--softSkills">
                     <li class="cardsLayout__card">
-                        <img src="assets/img/resilience.png" alt="Logo do HTML5">
-                        <span class="cardsLayout__card-txt">Resiliência</span>
+                        <img src="assets/img/resilience.png" alt="Símbolo de Resiliência"></span>
                     </li>
 
                     <li class="cardsLayout__card">
-                        <img src="assets/img/teamwork.png" alt="Logo das CSS3">
-                        <span class="cardsLayout__card-txt">Team Work</span>
+                        <img src="assets/img/teamwork.png" alt="Símbolo de trabalho em grupo">
+                        <span class="cardsLayout__card-txt">Team-Work</span>
                     </li>
 
                     <li class="cardsLayout__card">
-                        <img src="assets/img/openMind.png" alt="Logo do Javascript">
-                        <span class="cardsLayout__card-txt">Open Minded</span>
+                        <img src="assets/img/openMind.png" alt="Símbolo de mente aberta">
+                        <span class="cardsLayout__card-txt">Open-Mindedness</span>
                     </li>
                     <li class="cardsLayout__card">
-                        <img src="assets/img/selfteaching.png" alt="Logo do Javascript">
+                        <img src="assets/img/selfteaching.png" alt="Símbolo de autodidatismo">
                         <span class="cardsLayout__card-txt">Autodidatismo</span>
+                    </li>
+                    <li class="cardsLayout__card">
+                        <img src="assets/img/proatividade.png" alt="Símbolo de proatividade">
+                        <span class="cardsLayout__card-txt">Proatividade</span>
                     </li>
                 </ul>
         </section>
@@ -215,26 +230,44 @@
             </ul>
         </section>
 <hr>
-        <section class="contato">
-            <img src="assets/img/contato.jpg" alt="pessoas se contactando via internet" class="contato-img">
-            <div class="contato-info">
-                <h2 class="section__subtitulo">Contato</h2>
-                <p>Quer entrar em contato comigo?</p><br>
-                <p>Preencha o formulário e entrarei em contato o mais rápido possível</p>
+        <section>
+            <h2 class="section__subtitulo">Contato</h2>
+            <div class="contato"> 
+                <img src="assets/img/contato.jpg" alt="pessoas se contactando via internet" class="contato-img">
+                <div class="contato-info">
+                    <p>Quer entrar em contato comigo?</p><br>
+                    <p>Preencha o formulário e entrarei em contato o mais rápido possível</p>
                 
-                <form action="GET" class="formulario" name="formulario"> 
-                    <!--nome email assunto mensagem btnEnviar-->
+                    <form action="GET" class="formulario" name="formulario">
 
-                    <label for="Nome">Nome<input type="text" name="input-nome" id="input-nome" placeholder="Digite seu nome." class='form__input'></label>
+                        <div>
+                            <label for="Nome">Nome</label>
+                            <input type="text" name="input-nome" id="input-nome" placeholder="Digite seu nome." class='form__input' required>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
+                        </div>
 
-                    <label for="Email">E-mail<input type="email" placeholder="seuEmail@domínio.com" class='form__input'></label>
+                        <div>
+                            <label for="Email">E-mail</label>
+                            <input type="email" placeholder="seuEmail@domínio.com" class='form__input' required>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
+                        </div>
 
-                    <label for="Assunto">Assunto<input type="text" name="input-assunto" id="input-assunto" class='form__input'></label>
+                        <div>
+                            <label for="Assunto">Assunto</label>
+                            <input type="text" name="input-assunto" id="input-assunto" class='form__input' required>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
+                        </div>
 
-                    <label for="Mensagem">Mensagem<textarea name="input-mensagem" id="input-mensagem" cols="30" rows="10" class='form__input'></textarea></label>
-                    
-                    <label for=""><input type="submit" value="Enviar Mensagem" class='form__input form__inputEnviar'></label>
-                </form>
+                        <div>
+                            <label for="Mensagem">Mensagem</label>
+                            <textarea name="input-mensagem" id="input-mensagem" cols="30" rows="10" class='form__input' required></textarea>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
+                        </div>
+                
+                        <input type="submit" value="Enviar Mensagem" class='form__input form__inputEnviar'>
+
+                    </form>
+                </div>
             </div>
         </section>
     </main>
