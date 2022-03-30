@@ -1,3 +1,5 @@
+@import url(../base/_variaveis.css);
+
 .cardsLayout--formacao{
     width:90%;
     margin: 2em auto;
@@ -8,7 +10,7 @@
     align-items: center;
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:780px){
     .cardsLayout--formacao{
         flex-flow: column nowrap;
         justify-content: space-between ;

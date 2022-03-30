@@ -1,3 +1,5 @@
+@import url(../base/_variaveis.css);
+
 .cardsLayout--hobbies{
     width:95%;
     margin: 2em auto;
@@ -8,7 +10,7 @@
     align-content: center;
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:780px){
     .cardsLayout--hobbies{
         flex-flow: row wrap;
         justify-content: space-around ;

@@ -1,3 +1,5 @@
+@import url(../base/_variaveis.css);
+
 .headerDescricao__foto{
     margin-left:4em;
     width:20rem;
@@ -5,7 +7,7 @@
     border-radius: 50%;
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:780px) {
     .headerDescricao__foto{
         order: -1;
         margin: 1.5rem 0;

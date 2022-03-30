@@ -1,3 +1,5 @@
+@import url(../base/_variaveis.css);
+
 .cardsLayout__card{
     background: #FFFFFF;
     height:8rem;
@@ -32,7 +34,7 @@
 }
 
 
-@media screen and (max-width:750px){
+@media screen and (max-width:780px){
     .cardsLayout__card{
         height:8em;
         width:8em;

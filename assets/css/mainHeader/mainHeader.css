@@ -1,3 +1,5 @@
+@import url(../base/_variaveis.css);
+
 .mainHeader{
     display: flex;
     flex-flow: row nowrap;
@@ -14,7 +16,7 @@
     display: none;
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:780px){
     .mainHeader{
         flex-flow: column wrap;
         align-items: stretch;

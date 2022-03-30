@@ -1,3 +1,5 @@
+@import url(../base/_variaveis.css);
+
 .projetosLayout{
     display: flex;
     flex-flow: row nowrap;
@@ -14,7 +16,7 @@
     margin: 1rem 0;
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:780px){
     .projetosLayout{
         flex-flow: column nowrap;
         align-items: flex-start;

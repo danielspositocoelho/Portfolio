@@ -1,8 +1,10 @@
+@import url(../base/_variaveis.css);
+
 #mainNavbar__email{
     font-weight: bold;
 }
 
-@media screen and (max-width:750px){   
+@media screen and (max-width:780px){   
     .mainNavbar{
         display: flex;
         flex-flow:column wrap;

@@ -1,12 +1,13 @@
+@import url(../base/_variaveis.css);
 
 .contato-info{
     width:50%;
     margin: 0 1.5rem;
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:780px){
     .contato-info{
-        width:95%;
-        margin: 1.5rem;
+        width:90%;
+        margin: 1.5rem auto;
     }
 }

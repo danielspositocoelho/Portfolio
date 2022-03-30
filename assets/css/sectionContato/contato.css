@@ -1,3 +1,4 @@
+@import url(../base/_variaveis.css);
 .contato{
     display:flex;
     flex-flow: row nowrap;
@@ -5,9 +6,10 @@
     justify-content: center;
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:780px) {
     .contato{
         width:90%;
         flex-flow: column nowrap;
+        margin: auto;
     }
 }

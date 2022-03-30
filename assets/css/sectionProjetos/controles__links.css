@@ -1,3 +1,5 @@
+@import url(../base/_variaveis.css);
+
 .controles__links{
     color:white;
     font-size: 1.1rem;
@@ -15,7 +17,7 @@
     box-shadow: inset 0px 0px 6px 2.5px #134994c2;
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:780px){
     .controles__links{
         width:35%;
         margin: 1rem;
