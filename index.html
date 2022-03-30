@@ -42,11 +42,11 @@
             </div>
             <nav>
                 <ul class = "mainNavbar">
-                    <a href="#sobre-mim" class="mainNavbar__links">Sobre mim</a>
-                    <a href="#skills" class="mainNavbar__links">Skills</a>
-                    <a href="#hobbies" class="mainNavbar__links">Hobbies</a>
-                    <a href="#formacao" class="mainNavbar__links">Formação</a>
-                    <a href="#projetos" class="mainNavbar__links">Projetos</a>
+                    <a href="#sectionSobreMim" class="mainNavbar__links">Sobre mim</a>
+                    <a href="#sectionHardSkills" class="mainNavbar__links">Skills</a>
+                    <a href="#sectionHobbies" class="mainNavbar__links">Hobbies</a>
+                    <a href="#sectionFormacao" class="mainNavbar__links">Formação</a>
+                    <a href="#sectionProjetos" class="mainNavbar__links">Projetos</a>
                     <a id="mainNavbar__email" href="mailto:spositocoelho@gmail.com?subject=Contato via Portfolio&body=Olá, vi seu Portfolio" target="_blank" class="navbar__links">spositocoelho@gmail.com</a>
                 </ul>
             </nav>
@@ -69,7 +69,7 @@
 
     </header>
     <main>
-        <section class="sobreMim">
+        <section class="sobreMim" id="sectionSobreMim">
           <div class="sobreMim__conteudo">
                 <h2 class="section__subtitulo">Sobre mim</h2>
                 <p>Olá, que bom ver você por aqui! &#x1F604;</p>
@@ -80,7 +80,7 @@
           </div>
         </section>
 
-        <section class="skills">
+        <section class="skills" id="sectionHardSkills">
             <h2 class="section__subtitulo">Hard Skills</h2>
                 <ul class="cardsLayout--hardSkills">
                     <li class="cardsLayout__card">
@@ -112,7 +112,7 @@
                 </ul>
         </section>
 
-        <section class="skills">
+        <section class="skills" id="sectionSoftSkills">
             <h2 class="section__subtitulo">Soft Skills</h2>
                 <ul class="cardsLayout--softSkills">
                     <li class="cardsLayout__card">
@@ -139,7 +139,7 @@
                 </ul>
         </section>
 
-        <section class="hobbies">
+        <section class="hobbies" id="sectionHobbies">
             <h2 class="section__subtitulo">Hobbies</h2> 
                 <ul class="cardsLayout--hobbies">
                     <li class="cardsLayout__card">
@@ -169,7 +169,7 @@
                 </ul>
         </section>
 
-        <section class="formacao">
+        <section class="formacao" id="sectionFormacao">
         <h2 class="section__subtitulo">Formação</h2>
             <ul class="cardsLayout--formacao">
                 <li class="formacao__item">                    
@@ -192,7 +192,7 @@
             </ul>
         </section>
 
-        <section class="projetos">
+        <section class="projetos" id="sectionProjetos">
             <h2 class="section__subtitulo">Projetos</h2>
             <ul>
                 <li class="projetosLayout">
@@ -230,7 +230,7 @@
             </ul>
         </section>
 <hr>
-        <section>
+        <section id="sectionContato">
             <h2 class="section__subtitulo">Contato</h2>
             <div class="contato"> 
                 <img src="assets/img/contato.jpg" alt="pessoas se contactando via internet" class="contato-img">
@@ -242,13 +242,13 @@
 
                         <div>
                             <label for="Nome">Nome</label>
-                            <input type="text" name="input-nome" id="input-nome" placeholder="Digite seu nome." class='form__input' required>
+                            <input type="text" name="input-nome" id="input-nome" placeholder="Digite seu nome." class='form__input' data-type="nome" required>
                             <span class="input-mensagem-erro">Este campo não está válido</span>
                         </div>
 
                         <div>
                             <label for="Email">E-mail</label>
-                            <input type="email" placeholder="seuEmail@domínio.com" class='form__input' required>
+                            <input type="email" placeholder="seuEmail@domínio.com" class='form__input' data-type="email" required>
                             <span class="input-mensagem-erro">Este campo não está válido</span>
                         </div>
 
@@ -275,5 +275,6 @@
         <p>Desenvolvido por Daniel Spósito Coelho</p>
         <p>2022</p>
     </footer>
+    <script src="/assets/js/validaForm.js"></script>
 </body>
 </html>

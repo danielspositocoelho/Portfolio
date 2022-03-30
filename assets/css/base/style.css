@@ -8,6 +8,7 @@ body{
 section{
     margin: 5em auto;
 }
+
 footer{
     text-align: center;
     line-height: 2em;
@@ -36,6 +37,21 @@ abbr{
 
 .input-mensagem-erro{
     display: none;
+}
+
+.input-container--invalido{
+    padding: 0.5em;
+    margin: 0.3rem 0 0.8rem 0rem;
+    box-shadow: inset var(--errorColor) 2px 1px 4px;
+    color: var(--errorColor);
+    transition: ease-in-out 0.3s;
+}
+
+.input-container--invalido .input-mensagem-erro {
+    color: var(--errorColor);
+    display: block;
+    margin: 0.5rem 0;
+    padding-left: 0.5rem;
 }
 /*flex-direction: x-reverse --> inverte também a referencia para flex-start e flex-end! O start é onde estão dispostos os items do flexbox*/
 
